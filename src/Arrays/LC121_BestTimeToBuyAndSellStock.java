@@ -1,5 +1,3 @@
-package Arrays;
-
 public class LC121_BestTimeToBuyAndSellStock
 {
     public static int maxProfit(int[] prices) {
@@ -19,11 +17,5 @@ public class LC121_BestTimeToBuyAndSellStock
         }
 
         return result;
-    }
-    public static void main(String[] args)
-    {
-        int[] arr = {7,1,5,3,6,4};
-        int maxProfit = maxProfit(arr);
-        System.out.println("Maximum profit is : "+maxProfit);
     }
 }
