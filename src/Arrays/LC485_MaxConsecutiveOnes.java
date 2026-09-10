@@ -1,5 +1,3 @@
-package Arrays;
-
 public class LC485_MaxConsecutiveOnes
 {
     public static int findMaxConsecutiveOnes(int[] nums) {
@@ -18,11 +16,5 @@ public class LC485_MaxConsecutiveOnes
         }
 
         return maxStreak;
-    }
-    public static void main(String[] args)
-    {
-        int[] arr = {1,1,0,1,1,1};
-        int maxStreak = findMaxConsecutiveOnes(arr);
-        System.out.println("Maximum number of consecutive 1 is : "+maxStreak);
     }
 }
