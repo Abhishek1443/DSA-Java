@@ -1,5 +1,3 @@
-package Arrays;
-
 public class LC1_TwoSum
 {
     public static int[] twoSum(int[] nums, int target) {
@@ -15,17 +13,5 @@ public class LC1_TwoSum
             }
         }
         return Out;
-    }
-    public static void main(String[] args)
-    {
-        int[] arr = {2,7,11,15};
-        int target = 9;
-        int[] newArr = twoSum(arr,target);
-        System.out.print("Indices of the two numbers : [");
-        for(int value : newArr)
-        {
-            System.out.print(value+",");
-        }
-        System.out.print("]");
     }
 }
