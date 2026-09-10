@@ -1,7 +1,3 @@
-package Arrays;
-
-import javax.print.DocFlavor;
-
 public class LC905_SortArrayByParity
 {
     public static int[] sortArrayByParity(int[] nums)
@@ -18,12 +14,5 @@ public class LC905_SortArrayByParity
             }
         }
         return nums;
-    }
-    public static void main(String[] args)
-    {
-        int[] arr = {3,1,2,4,7,6};
-        arr = sortArrayByParity(arr);
-        for(int value : arr)
-            System.out.print(value+" ");
     }
 }
