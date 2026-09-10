@@ -1,5 +1,3 @@
-package Arrays;
-
 public class LC977_SquaresOfASortedArray
 {
     public static int[] sortedSquares(int[] nums)
@@ -32,12 +30,5 @@ public class LC977_SquaresOfASortedArray
             pI--;
         }
         return newarr ;
-    }
-    public static void main(String[] args)
-    {
-        int[] arr = {-7,-3,2,3,11};
-        arr = sortedSquares(arr);
-        for(int value : arr)
-            System.out.print(value+" ");
     }
 }
