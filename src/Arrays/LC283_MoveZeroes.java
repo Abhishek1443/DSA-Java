@@ -1,5 +1,3 @@
-package Arrays;
-
 public class LC283_MoveZeroes
 {
     public static void moveZeroes(int[] nums)
@@ -19,10 +17,5 @@ public class LC283_MoveZeroes
         for(int value : nums)
             System.out.print(value+" ");
 
-    }
-    public static void main(String[] args)
-    {
-        int[] arr = {0,1,0,3,12};
-        moveZeroes(arr);
     }
 }
